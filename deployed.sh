@@ -3,3 +3,4 @@ git pull origin master
 yarn
 yarn build
 nginx
+ngxin -t
