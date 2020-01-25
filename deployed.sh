@@ -1,1 +1,1 @@
-echo
+nginx -s stop
