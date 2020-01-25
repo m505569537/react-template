@@ -1434,6 +1434,13 @@ bindings@^1.5.0:
   dependencies:
     file-uri-to-path "1.0.0"
 
+bl@~4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npm.taobao.org/bl/download/bl-4.0.0.tgz#fc7351c473992110749d3552087e1fe942021e65"
+  integrity sha1-/HNRxHOZIRB0nTVSCH4f6UICHmU=
+  dependencies:
+    readable-stream "^3.4.0"
+
 bluebird@^3.5.5:
   version "3.7.2"
   resolved "https://registry.npm.taobao.org/bluebird/download/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
@@ -2937,6 +2944,13 @@ getpass@^0.1.1:
   integrity sha1-Xv+OPmhNVprkyysSgmBOi6YhSfo=
   dependencies:
     assert-plus "^1.0.0"
+
+github-webhook-handler@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/github-webhook-handler/download/github-webhook-handler-1.0.0.tgz#96abb851b3b79c530d1674247c30bcbc6b6895fc"
+  integrity sha1-lqu4UbO3nFMNFnQkfDC8vGtolfw=
+  dependencies:
+    bl "~4.0.0"
 
 glob-parent@^3.1.0:
   version "3.1.0"
@@ -5465,6 +5479,15 @@ readable-stream@^3.0.6, readable-stream@^3.1.1:
   version "3.4.0"
   resolved "https://registry.npm.taobao.org/readable-stream/download/readable-stream-3.4.0.tgz?cache=0&sync_timestamp=1578244501372&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freadable-stream%2Fdownload%2Freadable-stream-3.4.0.tgz#a51c26754658e0a3c21dbf59163bd45ba6f447fc"
   integrity sha1-pRwmdUZY4KPCHb9ZFjvUW6b0R/w=
+  dependencies:
+    inherits "^2.0.3"
+    string_decoder "^1.1.1"
+    util-deprecate "^1.0.1"
+
+readable-stream@^3.4.0:
+  version "3.5.0"
+  resolved "https://registry.npm.taobao.org/readable-stream/download/readable-stream-3.5.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freadable-stream%2Fdownload%2Freadable-stream-3.5.0.tgz#465d70e6d1087f6162d079cd0b5db7fbebfd1606"
+  integrity sha1-Rl1w5tEIf2Fi0HnNC123++v9FgY=
   dependencies:
     inherits "^2.0.3"
     string_decoder "^1.1.1"
